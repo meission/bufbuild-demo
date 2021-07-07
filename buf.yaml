@@ -1,0 +1,11 @@
+version: v1beta1
+name: github.com/meission/bufbuild-demo
+build:
+  roots:
+    - proto/api
+lint:
+  use:
+    - DEFAULT
+breaking:
+  use:
+    - FILE
